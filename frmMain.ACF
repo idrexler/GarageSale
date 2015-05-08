@@ -1,0 +1,801 @@
+Version =19
+VersionRequired =19
+Checksum =122265361
+Begin Form
+    RecordSelectors = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =14760
+    DatasheetFontHeight =10
+    ItemSuffix =34
+    Left =6645
+    Top =975
+    Right =21405
+    Bottom =7140
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x01e3f27ddd6ce440
+    End
+    GUID = Begin
+        0x7268db3f177ae549bca179a28f40fe46
+    End
+    NameMap = Begin
+        0x0acc0e55000000008f128032fca2ef42aa60e1a9ecab34550100000097c5c4e6 ,
+        0xde6ce4400000000000000000660072006d005300750062004f00720064006500 ,
+        0x72004d00610069006e0000000000000000000000000000000000000000000000 ,
+        0x0c000000050000000000000000000000000000000000
+    End
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x4d6963726f736f66742058505320446f63756d656e7420577269746572000000 ,
+        0x010400069c00580303ff000001000100ea0a6f08640001000f00580202000100 ,
+        0x5802020000004c657474657200000000ffffffffffffffff0000000000000000 ,
+        0x0856044001000000000000000000000000000000010000000000000001000000 ,
+        0x0200000001000000ffffffff0000000000000000000000000000000044494e55 ,
+        0x220010014c030c00cad2f6720000000000000000000000000000000000000000 ,
+        0x0000000000000000090000000000000000000100000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000000000001000000000000000000000010010000534d544a ,
+        0x00000000100000014d006900630072006f0073006f0066007400200058005000 ,
+        0x5300200044006f00630075006d0065006e007400200057007200690074006500 ,
+        0x72000000496e70757442696e00464f524d534f5552434500524553444c4c0055 ,
+        0x6e69726573444c4c00496e7465726c656176696e67004f464600496d61676554 ,
+        0x797065004a5045474d6564004f7269656e746174696f6e00504f525452414954 ,
+        0x00436f6c6c617465004f4646005265736f6c7574696f6e004f7074696f6e3100 ,
+        0x506170657253697a65004c455454455200436f6c6f724d6f6465003234627070 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000c0000004d58445701010000
+    End
+    PrtDevNames = Begin
+        0x080012003100010077696e73706f6f6c00004d6963726f736f66742058505320 ,
+        0x446f63756d656e74205772697465720000585053506f72743a00000000000000 ,
+        0x000000000000000000000000000000
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            FontName ="Tahoma"
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =6180
+            BackColor =-2147483633
+            Name ="Detail"
+            GUID = Begin
+                0xb870483f20aaa248b978de201aebe46f
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =5700
+                    Top =420
+                    Width =1680
+                    Height =420
+                    FontSize =14
+                    TabIndex =23
+                    Name ="txtTotal"
+                    FontName ="MS Sans Serif"
+                    GUID = Begin
+                        0x3a69fb9aaa848549ae0af3ea85cb177a
+                    End
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =4260
+                            Top =420
+                            Width =900
+                            Height =420
+                            FontSize =14
+                            FontWeight =700
+                            Name ="Label1"
+                            Caption ="Total:"
+                            FontName ="MS Sans Serif"
+                            GUID = Begin
+                                0xf1d0367a522c8b4eb8313e3820706699
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =360
+                    Top =300
+                    Width =1020
+                    Height =600
+                    TabIndex =1
+                    Name ="BtnAD"
+                    Caption ="AD"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x8283ae2b183d484a9e37a64741b7d4bc
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =360
+                    Top =960
+                    Width =1020
+                    Height =600
+                    TabIndex =2
+                    Name ="BtnMS"
+                    Caption ="MS"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xdd697a562812ef43a37288a0a66f293e
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =360
+                    Top =1620
+                    Width =1020
+                    Height =600
+                    TabIndex =3
+                    Name ="BtnCB"
+                    Caption ="CB"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x332bfdcac2dd3d428e3f592373f3cb73
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =360
+                    Top =2280
+                    Width =1020
+                    Height =600
+                    TabIndex =4
+                    Name ="BtnJD"
+                    Caption ="JD"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x69ee6ee6cc05f141861a4886a6e46afa
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =360
+                    Top =2940
+                    Width =1020
+                    Height =600
+                    TabIndex =5
+                    Name ="BtnOD"
+                    Caption ="OD"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x988ba7a188ba6449aacc87fb6f110507
+                    End
+                End
+                Begin Subform
+                    OverlapFlags =87
+                    Left =2820
+                    Top =1740
+                    Width =6855
+                    Height =2760
+                    TabIndex =6
+                    Name ="TmpTbfOrdersubform1"
+                    SourceObject ="Form.frmSubOrderMain"
+                    GUID = Begin
+                        0x1816f2ad7695e8479760992bda4094f8
+                    End
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =2820
+                            Top =1380
+                            Width =1755
+                            Height =360
+                            FontSize =12
+                            FontWeight =700
+                            Name ="TmpTbfOrder subform1 Label"
+                            Caption ="Current Order"
+                            FontName ="MS Sans Serif"
+                            EventProcPrefix ="TmpTbfOrder_subform1_Label"
+                            GUID = Begin
+                                0x4ef5c4835e78344f9dc91cd62cf9d3d3
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =10380
+                    Top =60
+                    Width =1020
+                    Height =600
+                    TabIndex =7
+                    Name ="BtnSubmit"
+                    Caption ="Submit"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xcd931688725e9f4ba3f345ef1274e551
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =11580
+                    Top =60
+                    Width =1020
+                    Height =600
+                    TabIndex =8
+                    Name ="BtnCancel"
+                    Caption ="Cancel"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xd115f8265027da4ca7075a14f5f7b10b
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =11040
+                    Top =1020
+                    Width =1020
+                    Height =600
+                    TabIndex =9
+                    Name ="Btn010"
+                    Caption =".10"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x341b9ae02b47a146bfcbf4017c094f45
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =12180
+                    Top =1020
+                    Width =1020
+                    Height =600
+                    TabIndex =10
+                    Name ="Btn020"
+                    Caption =".25"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x4090a1fbca20004388c4172c2268f3e1
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =13320
+                    Top =1020
+                    Width =1020
+                    Height =600
+                    TabIndex =11
+                    Name ="Btn050"
+                    Caption =".50"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x15f2ae2580477347a3ba79550d8a0ea4
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =11040
+                    Top =1800
+                    Width =1020
+                    Height =600
+                    TabIndex =12
+                    Name ="Btn075"
+                    Caption =".75"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xe90142787c4c7344bf3082eaafcd6515
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =12180
+                    Top =1800
+                    Width =1020
+                    Height =600
+                    TabIndex =13
+                    Name ="Btn1"
+                    Caption ="$1.00"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x911d7a25ac17d0418407df00f457be71
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =13320
+                    Top =1800
+                    Width =1020
+                    Height =600
+                    TabIndex =14
+                    Name ="Btn150"
+                    Caption ="$1.50"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xc2fc789e7491084aa954e204f28a08d4
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =11040
+                    Top =2520
+                    Width =1020
+                    Height =600
+                    TabIndex =15
+                    Name ="Btn2"
+                    Caption ="$2.00"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x030933c9f990a54fa84de8e941e216dd
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =12180
+                    Top =2520
+                    Width =1020
+                    Height =600
+                    TabIndex =16
+                    Name ="Btn250"
+                    Caption ="$2.50"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x88b4420693918f4ab8d0d94b4b8bcc2f
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =13320
+                    Top =2520
+                    Width =1020
+                    Height =600
+                    TabIndex =17
+                    Name ="Btn3"
+                    Caption ="$3.00"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x19f408f2e74ae94fbbd00c3cc9e9146b
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =13320
+                    Top =3240
+                    Width =1020
+                    Height =600
+                    TabIndex =18
+                    Name ="BtnOther"
+                    Caption ="Other"
+                    GUID = Begin
+                        0x275b137609e5b2449ca007156b4e658c
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =12180
+                    Top =3240
+                    Width =1020
+                    Height =600
+                    TabIndex =19
+                    Name ="Btn5"
+                    Caption ="$5.00"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x01942ac938d2254989cba5c64b0f2ed9
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =11040
+                    Top =3240
+                    Width =1020
+                    Height =600
+                    TabIndex =20
+                    Name ="Btn4"
+                    Caption ="$4.00"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x88a4c6e3844a1b4a8922d6dbf348339d
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3600
+                    Top =4860
+                    Width =1020
+                    Height =600
+                    TabIndex =21
+                    Name ="Command6"
+                    Caption ="Delete Item"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xfa23c84ccf07b5469679000be4fabf9c
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4980
+                    Top =4860
+                    Width =1020
+                    Height =600
+                    TabIndex =22
+                    Name ="Command29"
+                    Caption ="View Total"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x06d8b948e9f6f94f8f9f6fff33429a0b
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =5700
+                    Top =960
+                    Width =1680
+                    Height =420
+                    FontSize =14
+                    Name ="txtCurrent"
+                    FontName ="MS Sans Serif"
+                    GUID = Begin
+                        0xb2f7d2bf0ceaf54ca837cf3d42e5e429
+                    End
+                    Begin
+                        Begin Label
+                            OverlapFlags =87
+                            Left =4260
+                            Top =960
+                            Width =1215
+                            Height =420
+                            FontSize =14
+                            FontWeight =700
+                            Name ="Label33"
+                            Caption ="Current:"
+                            FontName ="MS Sans Serif"
+                            GUID = Begin
+                                0x88c9a8aef689a7459856c39678140a16
+                            End
+                        End
+                    End
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub Btn010_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = ".10"
+End Sub
+
+Private Sub Btn020_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = ".25"
+End Sub
+
+Private Sub Btn050_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = ".50"
+End Sub
+
+Private Sub Btn075_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = ".75"
+End Sub
+
+Private Sub Btn1_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = "1"
+End Sub
+
+Private Sub Btn150_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = "1.50"
+End Sub
+
+Private Sub Btn2_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = "2"
+End Sub
+
+Private Sub Btn250_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = "2.50"
+End Sub
+
+Private Sub Btn3_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = "3"
+End Sub
+
+Private Sub Btn4_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = "4"
+End Sub
+
+Private Sub Btn5_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let txtCurrent = "5"
+End Sub
+
+Private Sub BtnAD_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+Dim strTotal As String
+
+Set mdb = CurrentDb()
+
+
+Let strSQL = "INSERT into TmpTbfOrder(ItemCost, ItemInitals) " & _
+           "VALUES ('" & txtCurrent & "','" & "AD" & "')"
+mdb.Execute (strSQL)
+Me.[TmpTbfOrdersubform1].Form.Requery
+
+Set rst = mdb.OpenRecordset("Select SUM(ItemCost) from TmpTbfOrder")
+txtTotal = rst(0)
+
+End Sub
+
+Private Sub BtnCancel_Click()
+DoCmd.Close acForm, "frmMain"
+End Sub
+
+Private Sub BtnCB_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+
+Let strSQL = "INSERT into TmpTbfOrder(ItemCost, ItemInitals) " & _
+           "VALUES ('" & txtCurrent & "','" & "CB" & "')"
+mdb.Execute (strSQL)
+Me.[TmpTbfOrdersubform1].Form.Requery
+
+Set rst = mdb.OpenRecordset("Select SUM(ItemCost) from TmpTbfOrder")
+txtTotal = rst(0)
+End Sub
+
+Private Sub BtnJD_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+
+Let strSQL = "INSERT into TmpTbfOrder(ItemCost, ItemInitals) " & _
+           "VALUES ('" & txtCurrent & "','" & "JD" & "')"
+mdb.Execute (strSQL)
+Me.[TmpTbfOrdersubform1].Form.Requery
+
+Set rst = mdb.OpenRecordset("Select SUM(ItemCost) from TmpTbfOrder")
+txtTotal = rst(0)
+End Sub
+
+Private Sub BtnMS_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+
+Let strSQL = "INSERT into TmpTbfOrder(ItemCost, ItemInitals) " & _
+           "VALUES ('" & txtCurrent & "','" & "MS" & "')"
+mdb.Execute (strSQL)
+Me.[TmpTbfOrdersubform1].Form.Requery
+
+Set rst = mdb.OpenRecordset("Select SUM(ItemCost) from TmpTbfOrder")
+txtTotal = rst(0)
+End Sub
+
+Private Sub BtnOD_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let strSQL = "INSERT into TmpTbfOrder(ItemCost, ItemInitals) " & _
+           "VALUES ('" & txtCurrent & "','" & "OD" & "')"
+
+mdb.Execute (strSQL)
+Me.[TmpTbfOrdersubform1].Form.Requery
+
+Set rst = mdb.OpenRecordset("Select SUM(ItemCost) from TmpTbfOrder")
+txtTotal = rst(0)
+End Sub
+
+Private Sub BtnSubmit_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+
+Set mdb = CurrentDb()
+
+Let strSQL = "INSERT Into tbfSold (ItemCost, ItemInitals)" & _
+            "SELECT * from TmpTbfOrder"""
+
+mdb.Execute (strSQL)
+
+Let strSQL = "DELETE * from TmpTbfOrder"
+mdb.Execute (strSQL)
+
+Me.[TmpTbfOrdersubform1].Form.Requery
+
+txtTotal.Value = ""
+txtCurrent.Value = ""
+End Sub
+
+Private Sub Command29_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+Dim strInitals As String
+
+Set mdb = CurrentDb()
+strInitals = InputBox("Enter Persons Initals to Calcuate")
+
+Set rst = mdb.OpenRecordset("Select SUM(ItemCost) from tbfSold Where ItemInitals =  " & strInitals)
+
+End Sub
+
+Private Sub Command6_Click()
+Dim mdb As Database
+Dim qry As QueryDef
+Dim rst As Recordset
+Dim strSQL As String
+Dim strTable As String
+Dim ItemID As Integer
+
+Set mdb = CurrentDb()
+
+ItemID = InputBox("Enter Item ID to Delete")
+        
+Let strSQL = "DELETE * from TmpTbfOrder Where ID = " & ItemID
+mdb.Execute (strSQL)
+Me.[TmpTbfOrdersubform1].Form.Requery
+
+Set rst = mdb.OpenRecordset("Select SUM(ItemCost) from TmpTbfOrder")
+txtTotal = rst(0)
+End Sub
+
+Private Sub Form_Load()
+txtTotal.Value = ""
+txtCurrent.Value = ""
+End Sub

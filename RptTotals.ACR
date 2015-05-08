@@ -1,0 +1,322 @@
+Version =19
+VersionRequired =19
+Checksum =122265366
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =124
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    DatasheetFontHeight =10
+    ItemSuffix =13
+    Left =300
+    Top =45
+    Right =9195
+    Bottom =5340
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x49ef426dfc6ce440
+    End
+    GUID = Begin
+        0x955065b636738a42aaa486ad8a185c77
+    End
+    NameMap = Begin
+        0x0acc0e55
+    End
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000201c0000400b000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x4d6963726f736f66742058505320446f63756d656e7420577269746572000000 ,
+        0x010400069c00580303ff000001000100ea0a6f08640001000f00580202000100 ,
+        0x5802020000004c65747465720000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000010000000000000001000000 ,
+        0x0200000001000000ffffffff0000000000000000000000000000000044494e55 ,
+        0x220010014c030c00cad2f6720000000000000000000000000000000000000000 ,
+        0x0000000000000000090000000000000000000100000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000000000001000000000000000000000010010000534d544a ,
+        0x00000000100000014d006900630072006f0073006f0066007400200058005000 ,
+        0x5300200044006f00630075006d0065006e007400200057007200690074006500 ,
+        0x72000000496e70757442696e00464f524d534f5552434500524553444c4c0055 ,
+        0x6e69726573444c4c00496e7465726c656176696e67004f464600496d61676554 ,
+        0x797065004a5045474d6564004f7269656e746174696f6e00504f525452414954 ,
+        0x00436f6c6c617465004f4646005265736f6c7574696f6e004f7074696f6e3100 ,
+        0x506170657253697a65004c455454455200436f6c6f724d6f6465003234627070 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000c0000004d58445701010000
+    End
+    PrtDevNames = Begin
+        0x080012003100010077696e73706f6f6c00004d6963726f736f66742058505320 ,
+        0x446f63756d656e74205772697465720000585053506f72743a00000000000000 ,
+        0x0000000000000000000000
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontFamily =2
+            FontName ="Arial"
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            TextFontFamily =2
+            FontName ="Arial"
+        End
+        Begin PageHeader
+            Height =600
+            Name ="PageHeaderSection"
+            GUID = Begin
+                0xbf8d91926830d44fabd15173dda8feb6
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    TextFontFamily =34
+                    Left =2400
+                    Top =120
+                    Width =2340
+                    Height =360
+                    FontSize =14
+                    FontWeight =700
+                    BackColor =8404992
+                    ForeColor =16777215
+                    Name ="Label0"
+                    Caption ="Totals By Initals"
+                    FontName ="Microsoft Sans Serif"
+                    GUID = Begin
+                        0x8c2e57911c458a40aa40e29cee41974d
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =2880
+            OnFormat ="[Event Procedure]"
+            Name ="Detail"
+            GUID = Begin
+                0x361c19c954288a4e85679562209b9fbc
+            End
+            Begin
+                Begin TextBox
+                    TextFontFamily =34
+                    Left =1080
+                    Top =2340
+                    Height =300
+                    FontSize =12
+                    Name ="txtTotal"
+                    FontName ="Microsoft Sans Serif"
+                    GUID = Begin
+                        0x06f45a6168d12b418324cab770ff68f3
+                    End
+                    Begin
+                        Begin Label
+                            TextFontFamily =34
+                            Top =2340
+                            Width =720
+                            Height =300
+                            FontSize =12
+                            FontWeight =700
+                            Name ="Label2"
+                            Caption ="Total:"
+                            FontName ="Microsoft Sans Serif"
+                            GUID = Begin
+                                0x3e6d60c013521f4bbfc847b77cd43c46
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextFontFamily =34
+                    Left =1080
+                    Top =1920
+                    Height =300
+                    FontSize =12
+                    TabIndex =1
+                    Name ="txtMS"
+                    FontName ="Microsoft Sans Serif"
+                    GUID = Begin
+                        0x0334c13940f8db42b8f0043d761425ef
+                    End
+                    Begin
+                        Begin Label
+                            TextFontFamily =34
+                            Top =1920
+                            Width =510
+                            Height =285
+                            FontSize =12
+                            FontWeight =700
+                            Name ="Label4"
+                            Caption ="MS:"
+                            FontName ="Microsoft Sans Serif"
+                            GUID = Begin
+                                0x1fd378d045a3404e907e531af978a2fa
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextFontFamily =34
+                    Left =1080
+                    Top =240
+                    Height =300
+                    FontSize =12
+                    TabIndex =2
+                    Name ="txtAD"
+                    FontName ="Microsoft Sans Serif"
+                    GUID = Begin
+                        0x9951c1d7d31aa947930d53a9857a2959
+                    End
+                    Begin
+                        Begin Label
+                            TextFontFamily =34
+                            Top =240
+                            Width =510
+                            Height =300
+                            FontSize =12
+                            FontWeight =700
+                            Name ="Label6"
+                            Caption ="AD:"
+                            FontName ="Microsoft Sans Serif"
+                            GUID = Begin
+                                0xed1ea49b7d07b84dbbfd2c8b1c11193d
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextFontFamily =34
+                    Left =1080
+                    Top =660
+                    Height =300
+                    FontSize =12
+                    TabIndex =3
+                    Name ="txtJD"
+                    FontName ="Microsoft Sans Serif"
+                    GUID = Begin
+                        0xf7b191617c4d2349b3e1bf553e130c56
+                    End
+                    Begin
+                        Begin Label
+                            TextFontFamily =34
+                            Top =660
+                            Width =510
+                            Height =300
+                            FontSize =12
+                            FontWeight =700
+                            Name ="Label8"
+                            Caption ="JD:"
+                            FontName ="Microsoft Sans Serif"
+                            GUID = Begin
+                                0xa1f9fdf698200043ba984f626d3eaea4
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextFontFamily =34
+                    Left =1080
+                    Top =1080
+                    Height =300
+                    FontSize =12
+                    TabIndex =4
+                    Name ="txtOD"
+                    FontName ="Microsoft Sans Serif"
+                    GUID = Begin
+                        0xea18de871caaeb4db916c2850a71c5f9
+                    End
+                    Begin
+                        Begin Label
+                            TextFontFamily =34
+                            Top =1080
+                            Width =510
+                            Height =300
+                            FontSize =12
+                            FontWeight =700
+                            Name ="Label10"
+                            Caption ="OD\015\012OD:"
+                            FontName ="Microsoft Sans Serif"
+                            GUID = Begin
+                                0x3611d70490ef49458e646ba57d00b5f2
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextFontFamily =34
+                    Left =1080
+                    Top =1500
+                    Height =300
+                    FontSize =12
+                    TabIndex =5
+                    Name ="txtCB"
+                    FontName ="Microsoft Sans Serif"
+                    GUID = Begin
+                        0xff5f124e384b2a4b9332ba0b9330da87
+                    End
+                    Begin
+                        Begin Label
+                            TextFontFamily =34
+                            Top =1500
+                            Width =510
+                            Height =285
+                            FontSize =12
+                            FontWeight =700
+                            Name ="Label12"
+                            Caption ="CB:"
+                            FontName ="Microsoft Sans Serif"
+                            GUID = Begin
+                                0xc7ac6e95f37ef84b9418a5f048db1c49
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =360
+            Name ="PageFooterSection"
+            GUID = Begin
+                0x9778d34beaab5a44a0435a7f603ec61d
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub Detail_Format(Cancel As Integer, FormatCount As Integer)
+
+End Sub
+
+Private Sub Report_Open(Cancel As Integer)
+
+End Sub

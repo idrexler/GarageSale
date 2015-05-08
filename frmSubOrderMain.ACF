@@ -1,0 +1,225 @@
+Version =19
+VersionRequired =19
+Checksum =122771773
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =2
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =6300
+    DatasheetFontHeight =10
+    ItemSuffix =6
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xb463d523de6ce440
+    End
+    GUID = Begin
+        0x8f128032fca2ef42aa60e1a9ecab3455
+    End
+    NameMap = Begin
+        0x0acc0e5500000000ac9189994147af4986c41b70f7cfa55c000000004301a048 ,
+        0xdd6ce44028121800809b130054006d0070005400620066004f00720064006500 ,
+        0x7200000000000000fb75d581d9744543b8242f2fd0b9994007000000ac918999 ,
+        0x4147af4986c41b70f7cfa55c49004400000000000000d776d94c578dea46b47f ,
+        0x399881c4374807000000ac9189994147af4986c41b70f7cfa55c490074006500 ,
+        0x6d0043006f00730074000000000000005ecdd409e386574bb8440abbf2d45c3a ,
+        0x07000000ac9189994147af4986c41b70f7cfa55c4900740065006d0049006e00 ,
+        0x6900740061006c0073000000
+    End
+    RecordSource ="SELECT [TmpTbfOrder].[ID], [TmpTbfOrder].[ItemCost], [TmpTbfOrder].[ItemInitals]"
+        " FROM TmpTbfOrder; "
+    Caption ="TmpTbfOrder subform1"
+    DatasheetFontName ="Arial"
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+        End
+        Begin Line
+            SpecialEffect =3
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+        End
+        Begin ToggleButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin Tab
+            BackStyle =0
+        End
+        Begin FormHeader
+            Height =360
+            BackColor =-2147483633
+            Name ="FormHeader"
+            GUID = Begin
+                0xa6ce76b09870c248b4c0c16bc6c40163
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =60
+                    Top =60
+                    Width =1440
+                    Height =240
+                    Name ="ID_Label"
+                    Caption ="ID"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x88d917767a4e1c49b17cb20cfcd68055
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =1560
+                    Top =60
+                    Width =2310
+                    Height =240
+                    Name ="ItemCost_Label"
+                    Caption ="ItemCost"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xb2d07761052d8e48b718799f96591a34
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =3930
+                    Top =60
+                    Width =2310
+                    Height =240
+                    Name ="ItemInitals_Label"
+                    Caption ="ItemInitals"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xe25910c516d90c4dbdb10f829ac2555a
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =375
+            BackColor =-2147483633
+            Name ="Detail"
+            GUID = Begin
+                0x62ef7b48ac4a404e930a963b76c85772
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =60
+                    Top =60
+                    Height =255
+                    ColumnWidth =1440
+                    Name ="ID"
+                    ControlSource ="ID"
+                    GUID = Begin
+                        0xda6099e3aa87c0459f2a5d989833e89e
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1560
+                    Top =60
+                    Width =2310
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =1
+                    Name ="ItemCost"
+                    ControlSource ="ItemCost"
+                    Format ="$#,##0.00;($#,##0.00)"
+                    GUID = Begin
+                        0x0b38ee442ece1b44a7996b27dffe71a4
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =3930
+                    Top =60
+                    Width =2310
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="ItemInitals"
+                    ControlSource ="ItemInitals"
+                    GUID = Begin
+                        0xe0f2983a1676c544b1332486ed635341
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="FormFooter"
+            GUID = Begin
+                0x2b3479629cf01e4c9d6c0a4cd2a2d95a
+            End
+        End
+    End
+End
